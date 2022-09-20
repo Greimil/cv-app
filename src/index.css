@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  /* min-height: 100vh; */
+ 
+}
+
+#colorChange{
+  border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#colorChange::-webkit-color-swatch-wrapper {
+  padding: 0; 
+}
+#colorChange::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
+#colorChange::-moz-color-swatch-wrapper {
+  padding: 0; 
+}
+#colorChange::-moz-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
